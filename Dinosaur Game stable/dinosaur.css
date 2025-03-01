@@ -1,0 +1,26 @@
+#game {
+background-color: white;
+}
+
+h1 {
+    text-align: right; /* Aligns the text to the right */
+    margin-right: 20px; /* Optional: Adds some spacing from the right edge */
+}
+
+h2 {
+    text-align: bottom;
+    margin-bottom: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+canvas {
+    border: 1px solid black; /* Optional: Add a border to the canvas */
+}
